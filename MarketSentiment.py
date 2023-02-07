@@ -4,7 +4,7 @@ import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 # Set the bearer token
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAHWvlgEAAAAAgBkcazXIQk2fExSSYNwgOxfuqk4%3Di3Kz8N5b5hQ9OZ1HabBWmVCdsZDedl5pGUpUoYjzJJ6XSqU9fu"
+bearer_token = ""
 
 # API endpoint to search for tweets
 url = "https://api.twitter.com/2/tweets/search/recent?query=%23Polygon&max_results=100"
